@@ -797,8 +797,13 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  }
 $databases['default']['default'] = array (
   'database' => 'secretos',
+<<<<<<< HEAD
+  'username' => 'secretos_user',
+  'password' => 'secretos123',
+=======
   'username' => 'root',
   'password' => '',
+>>>>>>> 7e6a5f397ac5cfad4f8fcabb5ea882609213df19
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
